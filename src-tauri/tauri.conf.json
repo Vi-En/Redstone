@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Redstone",
+  "version": "0.1.0",
+  "identifier": "com.redstone.app",
+  "build": {
+    "beforeDevCommand": "npm --prefix ../ui install && npm --prefix ../ui run dev -- --host",
+    "beforeBuildCommand": "npm --prefix ../ui install && npm --prefix ../ui run build",
+    "frontendDist": "../ui/dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Redstone",
+        "width": 1280,
+        "height": 820,
+        "resizable": true,
+        "fullscreen": false
+      }
+    ]
+  },
+  "bundle": {
+    "active": false
+  }
+}

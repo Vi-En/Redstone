@@ -1,0 +1,35 @@
+# Rust build artifacts
+target/
+Cargo.lock
+
+# Node / UI build artifacts and caches
+node_modules/
+ui/node_modules/
+ui/dist/
+dist/
+.vite/
+.svelte-kit/
+
+# Editor and IDE configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+.DS_Store
+Thumbs.db
+
+# Internal tools, local environment, and temporary archives
+.camber/
+copilot-instructions/
+copilot-instructions.zip
+docs/PROGRESS_HANDOFF.md
+
+# Secrets, private credentials, tokens, and logs
+*.env
+*.env.*
+*.log
+*.pem
+*.key
+*.token

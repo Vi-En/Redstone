@@ -1,0 +1,23 @@
+# Example Redstone user settings.
+# Field-by-field setup steps: docs/onboarding.md
+# Secrets such as DNS tokens, API keys, and tunnel tokens stay in the OS keychain,
+# never in this file or in logs.
+
+# Whether the first-run setup has been completed on this device.
+onboarding_complete = false
+
+# Keep the server on the local network unless public access is explicitly enabled.
+lan_only = true
+
+# Name of the currently selected server instance.
+# instance_name = "Survival"
+
+# DNS or tunnel provider used when `lan_only = false`.
+# Valid options: "manual", "duckdns", "desec", "cloudflare", "playit"
+# dns_provider = "manual"
+
+# Single hostname label (or tunnel prefix) used for the public join address.
+# dns_subdomain = "play"
+
+# Domain appended to `dns_subdomain` (e.g. "example.com", "duckdns.org", "dedyn.io", "gl.joinmc.link").
+# dns_domain = "example.com"
