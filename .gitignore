@@ -26,6 +26,16 @@ copilot-instructions/
 copilot-instructions.zip
 docs/PROGRESS_HANDOFF.md
 
+# Android / Gradle build artifacts and caches
+.gradle/
+**/build/
+*.apk
+*.aab
+*.idsig
+local.properties
+key.properties
+keystore.properties
+
 # Secrets, private credentials, tokens, and logs
 *.env
 *.env.*
