@@ -53,3 +53,7 @@ Use `cargo tauri dev` to test native commands, filesystem sandboxing, OS keychai
 - `docs/specs/features.md` — Feature specifications and `[auto]` / `[manual]` acceptance criteria
 - `config.example.toml` — Sample user settings file
 - `.github/workflows/ci.yml` — CI workflow for Rust and UI checks
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
